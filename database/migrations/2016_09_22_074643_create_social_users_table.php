@@ -7,8 +7,8 @@ use Illuminate\Database\Migrations\Migration;
 class CreateSocialUsersTable extends Migration
 {
     /**
-     * Run the migrations.
-     *
+     * Social Users Table.
+     * Run the migrations
      * @return void
      */
     public function up()
