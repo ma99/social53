@@ -27,6 +27,9 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
+    /**
+    * Relation with SocialUsers
+    */
     public function social()
         {
             return $this->hasMany(SocialUser::class);
