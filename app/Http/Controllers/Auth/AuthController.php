@@ -36,7 +36,7 @@ class AuthController extends Controller
         } catch (Exception $e) {
             return Redirect::to('auth/'.$provider);
         }
-
+        //dd($user);
         /**
          * Return user if exists; create and return if doesn't
         */
