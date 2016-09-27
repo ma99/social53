@@ -62,7 +62,14 @@
                     </form>
                 </div>
             </div>
-        </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">Social Login</div>
+                <div class="panel-body">
+                   <a href="{{ url('auth/facebook') }}">
+                        <button type="button" class="btn btn-primary">Facebook</button>
+                   </a>
+                </div>
+            </div>
     </div>
 </div>
 @endsection
